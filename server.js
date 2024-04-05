@@ -2,7 +2,6 @@ const express = require('express');
 const path = require('path');
 const uuid = require('uuid/v1');
 const bodyParser = require('body-parser');
-const scenarios = require('./Scenarios');
 const story = require('./scenarios.json');
 
 // initialize the app
